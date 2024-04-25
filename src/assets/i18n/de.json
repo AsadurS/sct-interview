@@ -1,0 +1,220 @@
+{
+    "CALENDAR": {
+		"TITLE": "Arbeiten Kalender",
+		"MONTHS": {
+			"JANUARY": "Januar",
+			"FEBRUARY": "Februar",
+			"MARCH": "März",
+			"APRIL": "April",
+			"MAY": "Mai",
+			"JUNE": "Juni",
+			"JULY": "Juli",
+			"AUGUST": "August",
+			"SEPTEMBER": "September",
+			"OCTOBER": "Oktober",
+			"NOVEMBER": "November",
+			"DECEMBER": "Dezember"
+		},
+		"WEEKDAYS": {
+			"SUNDAY": "Sonntag",
+			"MONDAY": "Montag",
+			"TUESDAY": "Dienstag",
+			"WEDNESDAY": "Mittwoch",
+			"THURSDAY": "Donnerstag",
+			"FRIDAY": "Freitag",
+			"SATURDAY": "Samstag"
+		},
+    "setting":{
+       "title" : "Kalendereinstellung",
+       "table" :{
+        "weekend"    : "Wochenende",
+        "week_start" : "Wochenanfang",
+        "row"        : "MMonat in einer Reihe anzeigen ",
+        "action"     : "Aktion"
+       },
+       "form":{
+        "row"        : "Monat in einer Zeile anzeigen ",
+        "week_start" : "Wochenanfang auswählen",
+        "weekend"    : "Wochenende auswählen",
+        "submit"     : "Abschicken"
+       }
+    }
+	},
+    "sidebar":{
+        "schedule_manage" : "Verwalten",
+        "schedules"       : "Zeitpläne",
+        "schedule_report" : "Bericht",
+        "user_status"     : "Mitarbeiterstatus",
+        "calendar"        : "Kalender",
+        "calendar_submenu":{
+            "setting"     : "Einstellung"
+        },
+        "leave"           : "Urlaub verwalten",
+        "leave_submenu"   : {
+            "type"          : "Typ",
+            "approve"       :"Genehmigen"
+        },
+        "attendance": "Teilnahme",
+        "attendance_submenu": {
+            "input_csv": "Eingabe CSV"
+        }
+    },
+    "manage_page":{
+        "title-one" : "Zeitpläne verwalten ",
+        "title-two" : "Ihr Heute-Bericht",
+        "table"      :{
+            "start_time" : "Startzeit",
+            "end_time"   : "Endzeit",
+            "schedule"   : "Zeitpläne",
+            "time"       : "Schedule Time"
+        }
+       
+    },
+    "report_page":{
+        "title"         : "Planer verwalten",
+        "users"         : "Mitarbeiter",
+        "start_date"    : "Startdatum",
+        "end_date"      : "Enddatum",
+        "select-user"   : "Mitarbeiter auswählen",
+        "table"      :{
+            "start_time" : "Startzeit",
+            "name"       : "Name",
+            "end_time"   : "Endzeit",
+            "schedule"   : "Zeitpläne",
+            "time"       : "Schedule Time"
+        }
+    },
+    "schedules_page":{
+        "title"       : "Zeitplan-Listen",
+        "table"       : {
+            "scheduler_name" : "Name des Zeitplans",
+            "status"         : "Status",
+            "action"         : "Aktion"
+        },
+        "modal":{
+            "update": "Aktualisieren",
+            "add"   : "Hinzufügen",
+            "save"   : "Speichern",
+            "scheduler"   : "Zeitpläne"
+        },
+        "form":{
+            "name-place-holder" : "Schedules Name"
+        }
+    },
+    "user_status_page":{
+        "title"       : "Mitarbeiterstatus"
+    },
+ 
+    "leave_page":{
+        "title"    : "Liste der Urlaubsverwaltung",
+        "approval" : "Liste der Urlaubsgenehmigungen",
+        "new"      : "Neu",
+        "form":{
+              "title"           : "Urlaubsantragsformular",
+              "name"            : "Name des Mitarbeiters",
+              "me"              : "Für mich",
+              "select_employee" : "Mitarbeiter auswählen",
+              "date"            : "DaDatumte",
+              "Designations"    : "Bezeichnungen",
+              "emp_type"        : "Art des Mitarbeiters",
+              "type_leave"      : "Art des Urlaubs",
+              "start_date"      : "Startdatum",
+              "end_date"        : "Enddatum",
+              "weekend"         : "Mit Wochenende", 
+              "details"         : "Details", 
+              "location"        : "Ort während des Urlaubs",
+              "emc_contact"     : "Kontaktnummer für Notfälle",
+              "admin_approvarl" : "Verwaltungsgenehmigung",
+              "sup_approvarl"   : "Genehmigung des Betreuers",
+              "add"             : "Hinzufügen",
+              "update"          : "Aktualisieren",
+              "reset"           : "Zurücksetzen",
+              "cancel_cause"    : "Ursache stornieren",
+              "approved"        : "Genehmigt",
+              "cancel"          : "Abbrechen",
+              "pending"         : "Ausstehend"
+        },
+        "table":{
+            "status"          : "Status",
+            "admin_approvarl" : "Verwaltungsgenehmigung",
+            "sup_approvarl"   : "Genehmigung des Betreuers",
+            "start_date"      : "Startdatum",
+            "End_date"        : "Enddatum",
+            "days"            : "Tage",
+            "actions"         : "Aktionen",
+            "total"           : "Gesamter genommener Urlaub",
+            "left"            : "Verlassener Urlaub",
+            "name"            : "Name"
+        },
+        "leave_type":{
+          "title": "Urlaubsart",
+          "table"       : {
+            "name"           : "Titel Name",
+            "status"         : "Status",
+            "action"         : "Aktion"
+           },
+           "modal":{
+            "update": "Aktualisieren",
+            "add"   : "Hinzufügen",
+            "save"  : "Speichern",
+            "type"  : "Urlaubstyp",
+            "reset" : "Zurücksetzen"
+           },
+           "form":{
+            "name-place-holder" : "Typname hinterlassen"
+          }
+        }
+    },
+    "attendance_page": {
+        "title": "Anwesenheit der Mitarbeiter",
+        "select-user": "Mitarbeiter Auswählen",
+        "sel_start_date": "Startdatum Auswählen",
+        "sel_end_date": "Enddatum Auswählen",
+        "table": {
+            "id": "Id",
+            "name": "Name",
+            "date": "Datum",
+            "in_time": "Rechtzeitig",
+            "out_time": "Auszeit",
+            "work_time": "Arbeitszeiten",
+            "leave": "Verlassen"
+        },
+        "on_leave": "Im Urlaub",
+        "half_leave": "Halber Tag Urlaub",
+        "modal": {
+            "title": "Eingabe CSV-Datei",
+            "add_files": "Dateien Auswählen Oder Ablegen!"
+        }
+    },
+    "button":{
+        "new"     : "Neu",
+        "refresh" : "Aktualisieren",
+        "add"     : "Hinzufügen",
+        "update"  : "Aktualisieren"
+    },
+    "message":{
+        "error"       : "Etwas ist schief gelaufen!",
+        "add"         : "Yah! {{name}} erfolgreich hinzugefügt",
+        "update"      : "Ja! {{name}} erfolgreich aktualisiert",
+        "delete"      : "Jawohl! {{name}} erfolgreich gelöscht",
+        "cant-delete" : "{{name}} Arbeit kann nicht gelöscht werden",
+
+      "calendar":{
+        "add"    : "Jawohl! Daten erfolgreich hinzugefügt",
+        "update" : "Ja! Data Updated Successfully",
+        "delete"  : "Ja! Data delete Successfully"
+      },
+      "leave":{
+        "add"          : "Yah! leave application successfully submited",
+        "update"       : "Yah! leave application successfully updated",
+        "delete"       : "Ja! Formular erfolgreich gelöscht",
+        "status-error" : "Ein Antrag ist am Tag des Datums hinzugefügt"
+      },
+      "sweet-alert"    :{
+        "title"    : "Sind Sie sicher, dass Sie das Formular löschen wollen?",
+        "text"     : "Sie können dies nicht wiederherstellen!",
+        "confirm"  : "Ja, löschen Sie es!",
+        "cancel"   : "Nein, behalte es"
+      }
+    }
+}

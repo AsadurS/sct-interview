@@ -1,0 +1,222 @@
+{
+    "CALENDAR": {
+		"TITLE": "Lavorando Calendario",
+		"MONTHS": {
+			"JANUARY": "Gennaio",
+			"FEBRUARY": "Febbraio",
+			"MARCH": "Marzo",
+			"APRIL": "Aprile",
+			"MAY": "Maggio",
+			"JUNE": "Giugno",
+			"JULY": "Juglio",
+			"AUGUST": "Agosto",
+			"SEPTEMBER": "Settembre",
+			"OCTOBER": "Ottobre",
+			"NOVEMBER": "Novembre",
+			"DECEMBER": "Dicembre"
+		},
+		"WEEKDAYS": {
+			"SUNDAY": "Domenica",
+			"MONDAY": "Lunedì",
+			"TUESDAY": "Martedì",
+			"WEDNESDAY": "Mercoledì",
+			"THURSDAY": "Giovedì",
+			"FRIDAY": "Venerdì",
+			"SATURDAY": "Sabato"
+		},
+    "setting":{
+       "title" : "Impostazione del calendario",
+       "table" :{
+        "weekend"    : "Weekend",
+        "week_start" : "Inizio settimana",
+        "row"        : "Mese mostrato in una riga ",
+        "action"     : "Azione"
+       },
+       "form":{
+        "row"        : "Mese mostrato in una riga ",
+        "week_start" : "Seleziona inizio settimana",
+        "weekend"    : "Selezionare il weekend",
+        "submit"     : "Invia"
+       }
+    }
+	},
+    "sidebar":{
+        "schedule_manage" : "Gestire",
+        "schedules"       : "Orari",
+        "schedule_report" : "Rapporto",
+        "user_status"     : "Stato Dipendente",
+        "calendar"        : "Calendario",
+        "calendar_submenu":{
+            "setting"     : "Impostazione"
+        },
+        "leave"           : "Gestire i congedi",
+        "leave_submenu"   : {
+            "type"          : "Tipo",
+            "approve"       :"Approvare"
+        },
+        "attendance": "Presenza",
+        "attendance_submenu": {
+            "input_csv": "Input CSV"
+        }
+    },
+    "manage_page":{
+        "title-one" : " Gestisci orari ",
+        "title-two" : "Il tuo rapporto di oggi",
+        "table"      :{
+            "start_time" : "Ora di inizio",
+            "end_time"   : "Tempo di fine",
+            "schedule"   : "Orari",
+            "time"       : "Orario di programmazione"
+        }
+       
+    },
+    "report_page":{
+        "title"         : "Pianificatore Gestione",
+        "users"         : "I dipendenti",
+        "start_date"    : "Data di inizio",
+        "end_date"      : "Data di fine",
+        "select-user"   : "Selezionare il dipendent",
+        "table"      :{
+            "start_time" : "Ora di inizio",
+            "name"       : "Nome",
+            "end_time"   : "Tempo di fine",
+            "schedule"   : "Orari",
+            "time"       : "Orario di programmazione"
+        }
+    },
+    "schedules_page":{
+        "title"       : "Orari Elenchi",
+        "table"       : {
+            "scheduler_name" : "Schede Nome",
+            "status"         : "Stato",
+            "action"         : "Azione"
+        },
+        "modal":{
+            "update": "Aggiornamento",
+            "add"   : "Aggiungi",
+            "save"   : "Risparmiare",
+            "scheduler"   : "Orari"
+        },
+        "form":{
+            "name-place-holder" : "Orari Nome"
+        }
+    },
+    "user_status_page":{
+        "title"       : "Stato dei dipendenti"
+    },
+    "calendar":{
+        "title": ""
+    },
+    "leave_page":{
+        "title"    : "Elenco gestione congedi",
+        "approval" : "Elenco dei permessi approvati",
+        "new"      : "Nuo",
+        "form":{
+              "title"           : "Modulo di richiesta di congedo",
+              "name"            : "Nome del dipendente",
+              "me"              : "Per me",
+              "select_employee" : "Selezionare il dipendente",
+              "date"            : "Data",
+              "Designations"    : "Designazioni",
+              "emp_type"        : "Tipo di dipendente",
+              "type_leave"      : "Tipo di congedo",
+              "start_date"      : "Data di inizio",
+              "end_date"        : "Data di fine",
+              "weekend"         : "Con Weekend", 
+              "details"         : "Dettagli", 
+              "location"        : "Posizione durante il congedo",
+              "emc_contact"     : "Numero di contatto di emergenza",
+              "admin_approvarl" : "Approvazione dell'amministrazione",
+              "sup_approvarl"   : "Approvazione del supervisore",
+              "add"             : "Aggiungi",
+              "update"          : "Aggiornamento",
+              "reset"           : "Reset",
+              "cancel_cause"   : "Annulla causa",
+              "approved"        : "Approved",
+              "cancel"          : "Annulla",
+              "pending"         : "In attesa"
+        },
+        "table":{
+            "status"          : "Stato",
+            "admin_approvarl" : "Approvazione dell'amministrazione",
+            "sup_approvarl"   : "Approvazione del supervisore",
+            "start_date"      : "Data di inizio",
+            "End_date"        : "Data di fine",
+            "days"            : "Giorni",
+            "actions"         : "Azioni",
+            "total"           : "Totale congedi presi",
+            "left"            : "Congedo lasciato",
+            "name"            : "Nome"
+        },
+        "leave_type":{
+          "title": "Tipo di congedo",
+          "table"       : {
+            "name"           : "Titolo Nome",
+            "status"         : "Stato",
+            "action"         : "Azione"
+           },
+           "modal":{
+            "update": "Azione",
+            "add"   : "Aggiungi",
+            "save"  : "Risparmiare",
+            "type"  : "Tipo di congedo",
+            "reset" : "Reset"
+           },
+           "form":{
+            "name-place-holder" : "Nome del tipo di congedo"
+          }
+        }
+    },
+    "attendance_page": {
+        "title": "Presenze Dei Dipendenti",
+        "select-user": "Selezionare Il Dipendente",
+        "sel_start_date": "Selezionare La Data Di Inizio",
+        "sel_end_date": "Selezionare La Data Di Fine",
+        "table": {
+            "id": "Id",
+            "name": "Nome",
+            "date": "Data",
+            "in_time": "Nel Tempo",
+            "out_time": "Tempo Di Uscita",
+            "work_time": "Orario Di Lavoro",
+            "leave": "Lasciare"
+        },
+        "on_leave": "In Congedo",
+        "half_leave": "Congedo di Mezza Giornata",
+        "modal": {
+            "title": "File CSV di Ingresso",
+            "add_files": "Selezionare o Rilasciare i File!"
+        }
+    },
+    "button":{
+        "new"     : "New",
+        "refresh" : "Refresh",
+        "add"     : "Aggiungi",
+        "update"  : "Aggiorna"
+    },
+    "message":{
+      "error"        : "Qualcosa è andato storto!",
+      "add"          : "Yah! {{name}} aggiunto con successo",
+      "update"       : "Yah! {{name}} aggiornato con successo",
+      "delete"       : "Yah! {{name}} cancellato con successo",
+      "cant-delete"  : "{{name}} Il lavoro non può essere cancellato",
+
+      "calendar":{
+        "add"    : "Yah! Dati aggiunti con successo",
+        "update" : "Yah! Dati aggiornati con successo",
+        "delete"  : "Yah! Dati delete  con successo"
+      },
+      "leave":{
+        "add"          : "Yah! domanda di congedo inoltrata con successo",
+        "update"       : "Yah! domanda di congedo aggiornata con successo",
+        "delete"       : "Sì, il modulo è stato cancellato con successo",
+        "status-error" : "La domanda è stata aggiunta oggi alla data"
+      },
+      "sweet-alert"    :{
+        "title"    : "Sei sicuro di voler rimuovere?",
+        "text"     : "Non sarà possibile recuperarlo!",
+        "confirm"  : "Sì, cancellalo!",
+        "cancel"   : "No, tienilo"
+      }
+    }
+}

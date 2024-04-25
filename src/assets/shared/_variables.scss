@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+:root {
+    --base-FONT-FAMILY: Poppins;
+    --base-FONT: #344054;
+    --sub-FONT: #98A2B3;
+    --sub-BOLD-FONT: #F9FAFB;
+    --dark-FONT: #303945;
+
+    --base-BLUE: #005981;
+    --base-YELLOW: #FFA600;
+    --base-DARK-BLUE: #004F72;
+    --base-WHITE: #FFFFFF;
+    --base-BLACK: #000000;
+    --base-ORANGE: #FEFB00;
+    //--base-ORANGE: #FFA600;
+    --base-LIGHT-ASH: #F2F4F7;
+    --base-selectiveItem-ASH: #D0D7DD;
+    --base-tableColumn-ASH: #F9FBFD;
+    --base-scrollbar-ASH: #E4E7EC;
+    --base-boxBorder-ASH: #D0D7DD;
+    --base-boxShadow-BLACK: #0000006b;
+
+    --calendar-DARK-FONT: #667085;
+    --form-control-FONT: #212529;
+    --form-control-placeholder-FONT: #8e8a8a;
+    --input-group-FONT: #555555;
+    --base-DARK-BLUE: #004F72;
+    --base-BABY-BLUE: #DEF5FF;
+    --base-ORANGE: #FFA600;
+    --base-RED: #F04438;
+    --base-LIGHT-PINK: #FEE4E2;
+    --form-control-border-ASH: #ced4da;
+    --input-group-border-ASH: #cccccc;
+}

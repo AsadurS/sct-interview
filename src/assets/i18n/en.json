@@ -1,0 +1,221 @@
+{
+    "CALENDAR": {
+        "TITLE": "Working Calendar",
+        "MONTHS": {
+            "JANUARY": "January",
+            "FEBRUARY": "February",
+            "MARCH": "March",
+            "APRIL": "April",
+            "MAY": "May",
+            "JUNE": "June",
+            "JULY": "July",
+            "AUGUST": "August",
+            "SEPTEMBER": "September",
+            "OCTOBER": "October",
+            "NOVEMBER": "November",
+            "DECEMBER": "December"
+        },
+        "WEEKDAYS": {
+            "SUNDAY": "Sunday",
+            "MONDAY": "Monday",
+            "TUESDAY": "Tuesday",
+            "WEDNESDAY": "Wednesday",
+            "THURSDAY": "Thursday",
+            "FRIDAY": "Friday",
+            "SATURDAY": "Saturday"
+        },
+        "setting": {
+            "title": "Calendar Setting",
+            "table": {
+                "weekend": "Weekend",
+                "week_start": "Week start",
+                "row": "Month show in a  row ",
+                "action": "Action"
+            },
+            "form": {
+                "row": "Month show in a  row ",
+                "week_start": "Select week start",
+                "weekend": "select weekend",
+                "submit": "Submit"
+            }
+        }
+    },
+    "sidebar": {
+        "schedule_manage": "Manage",
+        "schedules": "Schedules",
+        "schedule_report": "Report",
+        "user_status": "Employee Status",
+        "calendar": "Calendar",
+        "calendar_submenu": {
+            "setting": "Setting"
+        },
+        "leave": "Manage Leave",
+        "leave_submenu": {
+            "type": "Type",
+            "approve": "Approve"
+        },
+        "attendance": "Attendance",
+        "attendance_submenu": {
+            "input_csv": "Input CSV"
+        }
+    },
+    "manage_page": {
+        "title-one": " Manage Schedules ",
+        "title-two": "Your Today Report",
+        "table": {
+            "start_time": "Start Time",
+            "end_time": "End Time",
+            "schedule": "Schedules",
+            "time": "Schedule Time"
+        }
+    },
+    "report_page": {
+        "title": "Employee Report",
+        "users": "Employees",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "select-user": "Select Employee",
+        "select-status": "Select Status",
+        "table": {
+            "name": "Name",
+            "start_time": "Start Time",
+            "end_time": "End Time",
+            "schedule": "Schedules",
+            "time": "Schedule Time"
+        }
+    },
+    "schedules_page": {
+        "title": "Schedule Lists",
+        "table": {
+            "scheduler_name": "Schedules Name",
+            "status": "Status",
+            "action": "Action"
+        },
+        "modal": {
+            "update": "Update",
+            "add": "Add",
+            "save": "Save",
+            "scheduler": "Schedules"
+        },
+        "form": {
+            "name-place-holder": "Schedules Name"
+        }
+    },
+    "user_status_page": {
+        "title": "Employee Status"
+    },
+    "calendar": {
+        "title": ""
+    },
+    "leave_page": {
+        "title": "Leave Management List",
+        "approval": "Leave Approval List",
+        "new": "New",
+        "form": {
+            "title": "Leave Application form",
+            "name": "Name of Employee",
+            "me": "For Me",
+            "select_employee": "Select Employee",
+            "date": "Date",
+            "Designations": "Designations",
+            "emp_type": "Type of Employee",
+            "type_leave": "Type of Leave",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "weekend": "With Weekend",
+            "details": "Details",
+            "location": "Location During Leave",
+            "emc_contact": "Emergency Contact Number",
+            "admin_approvarl": "Admin Approval",
+            "sup_approvarl": "Suppervisor Approval",
+            "add": "Add",
+            "update": "Update",
+            "reset": "Reset",
+            "cancel_cause": "Cancel Cause",
+            "approved": "Approved",
+            "cancel": "Cancel",
+            "pending": "Pending"
+        },
+        "table": {
+            "status": "Status",
+            "admin_approvarl": "Admin Approval",
+            "sup_approvarl": "Suppervisor Approval",
+            "start_date": "Start Date",
+            "End_date": "End Date",
+            "days": "Days",
+            "actions": "Actions",
+            "total": "Total Taken Leave",
+            "left": "Left Leave",
+            "name": "Name"
+        },
+        "leave_type": {
+            "title": "Leave Type",
+            "table": {
+                "name": "Title Name",
+                "status": "Status",
+                "action": "Action"
+            },
+            "modal": {
+                "update": "update",
+                "add": "Add",
+                "save": "Save",
+                "type": "Leave Type",
+                "reset": "Reset"
+            },
+            "form": {
+                "name-place-holder": "Leave Type name"
+            }
+        }
+    },
+    "attendance_page": {
+        "title": "Employee Attendance",
+        "select-user": "Select Employee",
+        "sel_start_date": "Select Start Date",
+        "sel_end_date": "Select End Date",
+        "table": {
+            "id": "Id",
+            "name": "Name",
+            "date": "Date",
+            "in_time": "In Time",
+            "out_time": "Out Time",
+            "work_time": "Working Hours",
+            "leave": "Leave"
+        },
+        "on_leave": "On Leave",
+        "half_leave": "Half Day Leave",
+        "modal": {
+            "title": "Input CSV File",
+            "add_files": "Select or Drop your Files!"
+        }  
+    },
+    "button": {
+        "new": "New",
+        "refresh": "Refresh",
+        "add": "Add",
+        "update": "Update"
+    },
+    "message": {
+        "error": "Something Went wrong!",
+        "add": "Yah! {{name}} added successfully",
+        "update": "Yah! {{name}} updated successfully",
+        "delete": "Yah! {{name}} successfully deleted",
+        "cant-delete": "{{name}} Work can`t be deleteable",
+        "calendar": {
+            "add": "Yah! Data addedd Successfully",
+            "update": "Yah! Data Updated Successfully",
+            "delete": "Yah! Data delete Successfully"
+        },
+        "leave": {
+            "add": "Yah! leave application  successfully submited",
+            "update": "Yah! leave application  successfully updated",
+            "delete": "Yah! successfully delete  form",
+            "status-error": "A application areday added of the date"
+        },
+        "sweet-alert": {
+            "title": "Are you sure want to remove?",
+            "text": "You will not be able to recover this!",
+            "confirm": "Yes, delete it!",
+            "cancel": "No, keep it"
+        }
+    }
+}
